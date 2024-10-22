@@ -1,6 +1,6 @@
 # Write your MySQL query statement below
 
-with CombinedFriends AS (
+WITH CombinedFriends AS (
     SELECT requester_id AS id
     FROM RequestAccepted
     UNION ALL
